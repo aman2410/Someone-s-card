@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css cards</title>
+</head>
+
+<style>
+    img{
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        outline: 7px solid red;
+    }
+
+    .cards{
+        padding: 30px;
+        /* border: 2px solid tomato; */
+        background-color: #9c636323;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 500px;
+        border-radius: 10px;
+        justify-content: center;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+    
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .one{
+        display: flex;
+        gap :10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .follow{
+        padding:  10px 65px;
+        /* background-color: red; */
+        border: 2px solid;
+        border-radius: 10px;
+    }
+    .message{
+        padding:  10px 65px;
+        background-color: rgb(180, 101, 101);
+        border-radius: 10px;
+    }
+
+    .emoji1:hover{
+        transform: scale(2);
+        cursor: pointer;
+    }
+    .emoji2:hover{
+        transform: scale(2);
+        cursor: pointer;
+    }
+    .emoji3:hover{
+        transform: scale(2);
+        cursor: pointer;
+    }
+    .emoji4:hover{
+        transform: scale(2);
+        cursor: pointer;
+    }
+
+    .emojis{
+        display: flex;
+        gap: 10px;
+    }
+</style>
+<body>
+
+    <div class="cards">
+
+        <img src="/img_mountains.jpg">
+
+        <h1 class="">Someone's Card</h1>
+        <h4>Designer | 4.2 ⭐⭐⭐⭐⭐   </h4>
+
+            <div class="emojis">
+                <div class="emoji1">
+                    😎 
+                </div>
+                <div class="emoji2">
+                    😎 
+                </div>
+                <div class="emoji3">
+                    😎 
+                </div>
+                <div class="emoji4">
+                    😎 
+                </div>
+            </div>
+
+                <div class="one">
+
+                    <h5 class="follow">Follow</h5>
+                    <h5 class="message">Message</h5>
+                </div>
+    </div>
+    
+</body>
+</html>
